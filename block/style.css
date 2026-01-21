@@ -1,0 +1,14 @@
+body {
+    background-color: #333; /* 背景を暗くする */
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center;     /* 縦方向の中央揃え */
+    height: 100vh;           /* 画面の高さいっぱいに */
+    margin: 0;
+}
+
+canvas {
+    background-color: #eee; /* キャンバスの背景色 */
+    border: 2px solid #fff; /* 白い枠線 */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* 影をつける */
+}
